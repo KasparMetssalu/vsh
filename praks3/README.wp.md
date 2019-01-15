@@ -3,11 +3,11 @@
 <b>PHP5 ja PHP7 paigaldamine.</b>
 <br>
 //   Käivita järgmised käsud  //<br>
-<code>	sudo apt-get install php5 libapache2-mod-php5 -y<br>
-	sudo nano /etc/apt/sources.list<br>
-	deb http://packages.dotdeb.org jessie all<br>
-	deb-src http://packages.dotdeb.org jessie all<br>
-	sudo apt-get install php7.0 php7.0-common libapache2-mod-php7.0 -y<br>
+<code>	sudo apt-get install php5 libapache2-mod-php5 -y</code><br>
+<code>	sudo nano /etc/apt/sources.list</code><br>
+<code>	deb http://packages.dotdeb.org jessie all</code><br>
+<code>	deb-src http://packages.dotdeb.org jessie all</code><br>
+<code>	sudo apt-get install php7.0 php7.0-common libapache2-mod-php7.0 -y</code><br>
 </code>
 <br><b>MYSQL 5.6 Paigaldamine.</b>
 
@@ -28,10 +28,8 @@ MYSQLi root kasutaja parooliks valisin: qwerty<br>
 	<code>sudo apt-get install phpmyadmin</code><br>
 
 <b>PHP lehe koostamise kood</b><br>
-	<code>
-	<?php
-	phpinfo();
+	<?php<br>
+	phpinfo();<br>
 	$tervitus = "Hello world!";
-	echo $tervitus;
+<br>	echo $tervitus;<br>
 	?>
-	</code>
