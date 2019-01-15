@@ -1,7 +1,7 @@
 <h1>Praktikum 3</h1>
 
 <b>PHP5 ja PHP7 paigaldamine.</b>
-
+<br>
 //   Käivita järgmised käsud  //<br>
 <code>	sudo apt-get install php5 libapache2-mod-php5 -y<br>
 	sudo nano /etc/apt/sources.list<br>
@@ -34,3 +34,4 @@ MYSQLi root kasutaja parooliks valisin: qwerty<br>
 	$tervitus = "Hello world!";
 	echo $tervitus;
 	?>
+	</code>
