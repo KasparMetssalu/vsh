@@ -8,3 +8,8 @@
 	<p>deb http://packages.dotdeb.org jessie all</p>
 	<p>deb-src http://packages.dotdeb.org jessie all</p>
 	<p>sudo apt-get install php7.0 php7.0-common libapache2-mod-php7.0 -y</p>
+<b>MYSQL 5.6 Paigaldamine.</b>
+
+// Paigaldamiseks käivita järgmised käsud //
+	<code>wget https://dev.mysql.com/get/mysql-apt-config_0.8.9-1_all.deb</code>
+	<code>dpkg -i mysql-apt-config_0.8.9-1_all.deb</code>
